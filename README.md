@@ -20,8 +20,4 @@ Este projeto foi construído utilizando as melhores práticas aprendidas no **De
 - [x] **Botão de Orçamento**: Link estratégico para conversão de clientes.
 - [x] **Menu Fixo (Sticky)**: Facilita o acesso à navegação em qualquer parte da página.
 
-## 🛠️ Como rodar o projeto localmente
-
-1. Clone o repositório:
-   ```bash
-   git clone [https://github.com/Macedo74/fcellassistencia.git](https://github.com/Macedo74/fcellassistencia.git)
+## 🛠️ Acesse o projeto: https://macedo74.github.io/fcellassistencia/
