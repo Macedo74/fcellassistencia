@@ -149,6 +149,31 @@
         </div>
     </footer>
 
+ <button id="backToTop" title="Voltar ao topo" class="fixed bottom-6 right-6 bg-blue-700 text-white w-12 h-12 rounded-full shadow-2xl flex items-center justify-center hover:bg-blue-600 transition-all duration-300 z-50 hidden border-2 border-white">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<script>
+    const backToTopButton = document.getElementById("backToTop");
+
+    // Mostra o botão quando o usuário rola 300px para baixo
+    window.onscroll = function() {
+        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+            backToTopButton.classList.remove("hidden");
+        } else {
+            backToTopButton.classList.add("hidden");
+        }
+    };
+
+    // Quando clica, volta para o topo com suavidade
+    backToTopButton.onclick = function() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    };
+</script>
+
 </body>
 
 </html>
