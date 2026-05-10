@@ -19,28 +19,33 @@
         <div class="container mx-auto flex justify-between items-center">
 
             <div class="flex items-center gap-3">
-                <div class="bg-blue-600 p-2 rounded-lg shadow-inner">
-                    <i class="fas fa-mobile-screen-button text-2xl text-white"></i>
-                </div>
-                <div class="flex items-center gap-3">
-                    <div class="bg-blue-600 p-2 rounded-lg shadow-inner hidden sm:block">
+                <img src="assets/logo_fcell.png" alt="Logo FCell" class="h-14 w-auto rounded-lg shadow-sm">
 
-                    </div>
-
-                    <h1 class="text-2xl md:text-4xl tracking-tighter">
-                        <span class="font-black text-white uppercase">FCell</span>
-                        <span class="font-light text-blue-200 uppercase ml-1">Assistência</span>
-                    </h1>
-                </div>
+                <h1 class="text-2xl md:text-3xl tracking-tighter flex items-center">
+                    <span class="font-black text-white uppercase">FCell</span>
+                    <span class="font-light text-blue-200 uppercase ml-1">Assistência Técnica</span>
+                </h1>
             </div>
 
             <ul class="flex space-x-4 md:space-x-6 items-center">
-                <li><a href="#servicos" class="hover:text-blue-200 hidden sm:block text-sm md:text-base">Serviços</a>
-                </li>
                 <li>
-                    <a href="#contato"
-                        class="bg-white text-blue-700 px-3 py-2 md:px-4 md:py-2 rounded-lg font-bold hover:bg-blue-100 transition shadow-md text-xs md:text-base">
-                        Orçamento
+                    <a href="#servicos" class="hover:text-blue-200 hidden sm:block text-sm md:text-base">Serviços</a>
+                </li>
+
+                <li>
+                    <a href="#galeria" class="hover:text-blue-200 hidden sm:block text-sm md:text-base">Fotos</a>
+                </li>
+
+                <li>
+                    <a href="#unidades" class="hover:text-blue-200 hidden sm:block text-sm md:text-base">Nossas
+                        Unidades</a>
+                </li>
+
+                <li>
+                    <a href="https://wa.me/5511985278100?text=Olá!%20Vi%20seu%20site%20e%20gostaria%20de%20um%20orçamento%20de%20reparo."
+                        target="_blank"
+                        class="bg-white text-blue-700 px-3 py-2 md:px-4 md:py-2 rounded-lg font-bold hover:bg-blue-100 transition shadow-md text-xs md:text-base flex items-center gap-2">
+                        <i class="fab fa-whatsapp"></i> Orçamento
                     </a>
                 </li>
             </ul>
@@ -52,7 +57,7 @@
         <div class="container mx-auto">
             <h2 class="text-4xl md:text-5xl font-extrabold mb-4">Seu celular quebrou? Nós resolvemos!</h2>
             <p class="text-xl mb-8 text-blue-100">Reparos rápidos, peças de qualidade e garantia técnica.</p>
-            <a href="https://wa.me/11985278100"
+            <a href="https://wa.me/5511985278100"
                 class="bg-green-500 hover:bg-green-600 text-white text-lg font-bold py-3 px-8 rounded-full shadow-xl transition transform hover:scale-105">
                 <i class="fab fa-whatsapp mr-2"></i> Chamar no WhatsApp
             </a>
@@ -117,6 +122,39 @@
         </div>
     </section>
 
+    <section id="galeria" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h3 class="text-3xl font-bold text-center mb-2">FCell em Fotos</h3>
+            <p class="text-center text-gray-500 mb-12 text-lg">Confira nossos reparos e nossa estrutura profissional.
+            </p>
+
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+
+                <div class="overflow-hidden rounded-xl shadow-lg aspect-square">
+                    <img src="assets/foto_01.png" alt="Conserto de Celular"
+                        class="w-full h-full object-cover hover:scale-110 transition duration-500 cursor-pointer">
+                </div>
+
+                <div class="overflow-hidden rounded-xl shadow-lg aspect-square">
+                    <img src="assets/foto_02.png" alt="Conserto de Celular"
+                        class="w-full h-full object-cover hover:scale-110 transition duration-500 cursor-pointer">
+                </div>
+
+                <div class="overflow-hidden rounded-xl shadow-lg aspect-square">
+                    <img src="assets/foto_03.png" alt="Conserto de Celular"
+                        class="w-full h-full object-cover hover:scale-110 transition duration-500 cursor-pointer">
+                </div>
+
+                <div class="overflow-hidden rounded-xl shadow-lg aspect-square">
+                    <img src="assets/foto_04.png" alt="Peças Originais"
+                        class="w-full h-full object-cover hover:scale-110 transition duration-500 cursor-pointer">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
     <section class="bg-gray-100 py-16">
         <div class="container mx-auto px-4 text-center">
             <h3 class="text-3xl font-bold mb-8">Por que escolher a FCell?</h3>
@@ -137,42 +175,88 @@
         </div>
     </section>
 
+    <section id="unidades" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h3 class="text-3xl font-bold text-center mb-12">Nossas Unidades</h3>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+                <div class="bg-gray-50 p-4 rounded-2xl shadow-sm border border-gray-100">
+                    <h4 class="text-xl font-bold mb-3 text-blue-700"><i class="fas fa-location-dot mr-2"></i>Unidade
+                        Vila Ré</h4>
+                    <p class="text-gray-600 mb-4 text-sm">Rua Nhatumani, 980 - São Paulo, SP</p>
+                    <div class="rounded-xl overflow-hidden h-64 shadow-inner">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.290092670753!2d-46.50064062467121!3d-23.522066478826837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce60bf9f29ddb9%3A0x3d60e298dca98fcb!2sR.%20Nhatumani%2C%20980%20-%20Vila%20R%C3%A9%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003663-000!5e0!3m2!1spt-BR!2sbr!4v1778425391691!5m2!1spt-BR!2sbr"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <div class="bg-gray-50 p-4 rounded-2xl shadow-sm border border-gray-100">
+                    <h4 class="text-xl font-bold mb-3 text-blue-700"><i class="fas fa-location-dot mr-2"></i>Unidade
+                        Ponte Rasa</h4>
+                    <p class="text-gray-600 mb-4 text-sm">Rua Ponte Rasa, 917 - São Paulo, SP</p>
+                    <div class="rounded-xl overflow-hidden h-64 shadow-inner">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.528460254796!2d-46.484965924741715!3d-23.513488059835076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce60e0b452079b%3A0xe5e8a5cc285ef40b!2sR.%20Pte.%20Rasa%2C%20917%20-%20Jardim%20Pte.%20Rasa%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003896-000!5e0!3m2!1spt-BR!2sbr!4v1778425668306!5m2!1spt-BR!2sbr"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
     <footer id="contato" class="bg-gray-900 text-gray-400 py-10 px-4 text-center">
         <div class="container mx-auto">
-            <p class="text-white text-xl font-bold mb-4">FCELL ASSISTÊNCIA</p>
-            <p class="mb-2">Rua Nhatumani, 980 - Vila Ré, São Paulo</p>
-            <p class="mb-2">Rua Ponte Rasa, 917 - Ponte Rasa, São Paulo</p>
-            <p class="mb-6">Telefone: (11) 98527-8100</p>
+            <p class="text-white text-xl font-bold mb-4">FCELL ASSISTÊNCIA TÉCNICA</p>
+
+            <p class="mb-2">Loja 01: Rua Nhatumani, 980 - Vila Ré, São Paulo</p>
+            <p class="mb-6">
+                <a href="https://wa.me/5511985278100" target="_blank" class="hover:text-green-400 transition-colors">
+                    <i class="fab fa-whatsapp mr-1"></i> Telefone: (11) 98527-8100
+                </a>
+            </p>
+
+            <p class="mb-2">Loja 02: Rua Ponte Rasa, 917 - Ponte Rasa, São Paulo</p>
+            <p class="mb-6">
+                <a href="https://wa.me/5511954127142" target="_blank" class="hover:text-green-400 transition-colors">
+                    <i class="fab fa-whatsapp mr-1"></i> Telefone: (11) 95412-7142
+                </a>
+            </p>
 
             <hr class="border-gray-700 mb-6">
             <p>&copy; 2026 FCell Assistência Técnica. Todos os direitos reservados.</p>
         </div>
     </footer>
 
- <button id="backToTop" title="Voltar ao topo" class="fixed bottom-6 right-6 bg-blue-700 text-white w-12 h-12 rounded-full shadow-2xl flex items-center justify-center hover:bg-blue-600 transition-all duration-300 z-50 hidden border-2 border-white">
-    <i class="fa-solid fa-arrow-up"></i>
-</button>
+    <button id="backToTop" title="Voltar ao topo"
+        class="fixed bottom-6 right-6 bg-blue-700 text-white w-12 h-12 rounded-full shadow-2xl flex items-center justify-center hover:bg-blue-600 transition-all duration-300 z-50 hidden border-2 border-white">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
 
-<script>
-    const backToTopButton = document.getElementById("backToTop");
+    <script>
+        const backToTopButton = document.getElementById("backToTop");
 
-    // Mostra o botão quando o usuário rola 300px para baixo
-    window.onscroll = function() {
-        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-            backToTopButton.classList.remove("hidden");
-        } else {
-            backToTopButton.classList.add("hidden");
-        }
-    };
+        // Mostra o botão quando o usuário rola 300px para baixo
+        window.onscroll = function () {
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                backToTopButton.classList.remove("hidden");
+            } else {
+                backToTopButton.classList.add("hidden");
+            }
+        };
 
-    // Quando clica, volta para o topo com suavidade
-    backToTopButton.onclick = function() {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
-    };
-</script>
+        // Quando clica, volta para o topo com suavidade
+        backToTopButton.onclick = function () {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        };
+    </script>
 
 </body>
 
